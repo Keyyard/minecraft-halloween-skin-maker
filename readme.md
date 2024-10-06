@@ -18,7 +18,7 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 
 ## Getting Started
 
-1. ** Install the halloween-skin-maker.exe file.**
+1. **Install the halloween-skin-maker.exe file.**
 
 2. **Run the application.**
 
