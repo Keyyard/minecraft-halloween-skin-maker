@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>The skin is now finished!</h2>
+    <a href="{{ url_for('download', filename=filename) }}" class="button">Download</a>
+    <a href="{{ url_for('home') }}" class="button">Return to Home</a>
+{% endblock %}

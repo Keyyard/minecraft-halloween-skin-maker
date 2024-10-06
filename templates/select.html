@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Select your edit:</h2>
+    <form method="post">
+        <div class="customizations">
+            {% for customization in customizations %}
+                <label>
+                    <input type="radio" name="customization" value="{{ customization }}" required>
+                    <img src="{{ url_for('static', filename='assets/ui/' + customization) }}" alt="{{ customization }}" width="64" height="64">
+                    <p>{{ customization.split('.')[0] | capitalize }}</p>
+                </label>
+            {% endfor %}
+        </div>
+        <button type="submit" class="button">Submit</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Upload your player skin (PNG):</h2>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="skin" accept=".png" required><br><br>
+        <button type="submit" class="button">Upload</button>
+    </form>
+{% endblock %}
