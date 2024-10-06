@@ -1,6 +1,3 @@
-Sure, here's a more streamlined and user-friendly `README.md` without the directory structure:
-
-```markdown
 # Keyyard's Halloween Skin Maker 🎃
 
 Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky customizations to your Minecraft skin. Upload your skin, choose a Halloween-themed overlay, and download your new look. It's that simple!
