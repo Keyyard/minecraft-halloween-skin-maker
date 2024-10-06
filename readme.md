@@ -18,37 +18,27 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 
 ## Getting Started
 
-### Prerequisites
+1. ** Install the halloween-skin-maker.exe file.**
 
-- Python 3.x
-- `pip` (Python package installer)
+2. **Run the application.**
 
-### Installation
-
-1. **Clone the repository or download the ZIP:**
-   ```bash
-   git clone {this-repository-url}
-   cd halloween-skin-maker
-   ```
-
-2. **Install the required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Flask application:**
-   ```bash
-   python app.py
-   ```
-
-4. **Open your web browser and navigate to `http://127.0.0.1:5000/`.**
+3. **Open your web browser and navigate to `http://127.0.0.1:5000/`.**
 
 ## Usage
-After running the Flask application, you can upload your Minecraft skin and choose a Halloween overlay to customize your skin. Once you're satisfied with your creation, you can download the new skin and use it in Minecraft.
+After running the application, you can upload your Minecraft skin and choose a Halloween overlay to customize your skin. Once you're satisfied with your creation, you can download the new skin and use it in Minecraft.
 
 ## Contributing
 
 You can contribute overlays and submit pull requests to add more Halloween-themed customizations to the app. We welcome any contributions to improve the app and make it more fun for everyone.
+
+For modifications, please follow the guidelines below:
+
+1. **Fork the repository.**
+2. **Create a new branch.**
+3. **Make your changes.**
+4. **Commit your changes.**
+5. **Push to the branch.**
+6. **Submit a pull request.**
 
 ## Acknowledgements
 
