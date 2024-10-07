@@ -1,5 +1,6 @@
 import subprocess
 import webview
+import requests
 
 if __name__ == "__main__":
     # Start the Flask server in a separate process to avoid conflicts with the PyWebView window

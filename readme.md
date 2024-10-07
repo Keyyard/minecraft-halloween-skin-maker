@@ -18,6 +18,14 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 
 ## Getting Started
 
+### Prerequisites
+
+- **Python 3 or higher**
+- **Dependencies:** Install the required dependencies using the following command:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
 1. **Install the halloween-skin-maker source code.**
 
 2. **Run the application halloween-skin-maker.exe.**
@@ -40,7 +48,12 @@ For modifications, please follow the guidelines below:
 
 ## Acknowledgements
 
-- [Flask](https://flask.palletsprojects.com/)
-- [Pillow](https://python-pillow.org/)
+- [Pillow](https://python-pillow.org/) - Python Imaging Library
+- [Flask](https://flask.palletsprojects.com/) - Web Framework
+- [requests](https://docs.python-requests.org/) - HTTP Library
+- [pywebview](https://pywebview.flowrl.com/) - Web GUI Library
+
+Make sure to install these dependencies using the command provided in the Prerequisites section.
+
 
 Happy Halloween!!
