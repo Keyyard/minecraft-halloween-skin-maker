@@ -25,6 +25,7 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
   ```bash
   pip install -r requirements.txt
   ```
+### Starting
 
 1. **Install the halloween-skin-maker source code.**
 
