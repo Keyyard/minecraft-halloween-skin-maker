@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
     <h2>Select your edit:</h2>
-    <form method="post">
+    <form method="post" id="customizationForm">
         <div class="customizations">
             {% for customization in customizations %}
                 <label>

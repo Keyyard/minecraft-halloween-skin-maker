@@ -27,6 +27,11 @@ body {
     background-color: #1E3E62;
 }
 
+.button:disabled {
+    background-color: #555555;
+    cursor: not-allowed;
+}
+
 h1, h2 {
     color: #FF6500;
 }
@@ -41,12 +46,14 @@ h1, h2 {
     margin: 10px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .customizations img {
     border: 2px solid #FF6500;
     border-radius: 5px;
     image-rendering: pixelated; 
+    transition: border-color 0.3s;
 }
 
 .customizations input {
@@ -55,4 +62,5 @@ h1, h2 {
 
 .customizations input:checked + img {
     border-color: #1E3E62;
+    background-color: #FF6500;
 }

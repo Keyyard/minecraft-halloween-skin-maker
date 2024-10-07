@@ -79,7 +79,6 @@ def select(filename):
 def product(filename):
     return render_template('product.html', filename=filename)
 
-# Download route
 @app.route('/download/<filename>')
 def download(filename):
     try:
