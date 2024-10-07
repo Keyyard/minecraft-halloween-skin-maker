@@ -3,13 +3,12 @@ from werkzeug.utils import secure_filename
 import os
 from PIL import Image
 import time
-import random
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 app.config['OUTPUT_FOLDER'] = 'output/'
 app.config['ALLOWED_EXTENSIONS'] = {'png'}
-app.secret_key = 'keyyard_secret_key' 
+app.secret_key = 'keyyard_secret_key'
 
 # Ensure upload and output directories exist
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
@@ -83,7 +82,24 @@ def product(filename):
 # Download route
 @app.route('/download/<filename>')
 def download(filename):
-    return send_file(os.path.join(app.config['OUTPUT_FOLDER'], filename), as_attachment=True)
+    try:
+        file_path = os.path.join(app.config['OUTPUT_FOLDER'], filename)
+        return send_file(file_path, as_attachment=True)
+    except FileNotFoundError:
+        app.logger.error(f"File not found: {file_path}")
+        return "File not found", 404
+    except Exception as e:
+        app.logger.error(f"Error downloading file: {e}")
+        return "Internal Server Error", 500
 
-if __name__ == '__main__':
-    app.run(debug=False)
+# Shutdown route
+@app.route('/shutdown', methods=['POST'])
+def shutdown():
+    func = request.environ.get('werkzeug.server.shutdown')
+    if func is None:
+        raise RuntimeError('Not running with the Werkzeug Server')
+    func()
+    return 'Server shutting down...'
+
+if __name__ == "__main__":
+    app.run(debug=True, use_reloader=False)

@@ -22,8 +22,6 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 
 2. **Run the application halloween-skin-maker.exe.**
 
-3. **Open your web browser and navigate to `http://127.0.0.1:5000/`.**
-
 ## Usage
 After running the application, you can upload your Minecraft skin and choose a Halloween overlay to customize your skin. Once you're satisfied with your creation, you can download the new skin and use it in Minecraft.
 
