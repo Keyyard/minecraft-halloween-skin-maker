@@ -56,5 +56,10 @@ For modifications, please follow the guidelines below:
 
 Make sure to install these dependencies using the command provided in the Prerequisites section.
 
+## License and Contributions
+
+This app can be freely modified and hosted as a website on your own. However, credits are required, and commercial use is not allowed without permission. For commercial inquiries, please contact us.
+
+If you would like to support the project, consider making a donation. Donations will help us host the app as a website, eliminating the need for users to install it locally.
 
 Happy Halloween!!
