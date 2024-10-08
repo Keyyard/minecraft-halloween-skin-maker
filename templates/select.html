@@ -7,7 +7,7 @@
                 <label>
                     <input type="radio" name="customization" value="{{ customization }}" required>
                     <img src="{{ url_for('static', filename='assets/ui/' + customization) }}" alt="{{ customization }}" width="64" height="64">
-                    <p>{{ customization.split('.')[0] | capitalize }}</p>
+                    <p>{{ customization.split('.')[0].replace('_', ' ') | capitalize }}</p>
                 </label>
             {% endfor %}
         </div>
