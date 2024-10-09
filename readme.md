@@ -34,18 +34,14 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 ## Usage
 After running the application, you can upload your Minecraft skin and choose a Halloween overlay to customize your skin. Once you're satisfied with your creation, you can download the new skin and use it in Minecraft.
 
-## Contributing
+## How to add new customizations?
 
-You can contribute overlays and submit pull requests to add more Halloween-themed customizations to the app. We welcome any contributions to improve the app and make it more fun for everyone.
-
-For modifications, please follow the guidelines below:
-
-1. **Fork the repository.**
-2. **Create a new branch.**
-3. **Make your changes.**
-4. **Commit your changes.**
-5. **Push to the branch.**
-6. **Submit a pull request.**
+1. Fork the repository.
+2. Add your customizations to the `static/assets/customizations` folder.
+3. Add your customization UI (icon) to the `static/assets/ui` folder.
+> Make sure you have the same name for the customization and the UI icon.
+4. Run the application and test your customization.
+5. Create a pull request to merge your changes! I will review and merge them ASAP.
 
 ## Acknowledgements
 
