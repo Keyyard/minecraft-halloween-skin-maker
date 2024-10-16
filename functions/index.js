@@ -1,3 +1,4 @@
+import app from './firebaseConfig.js';
 import { https } from 'firebase-functions';
 import { spawn } from 'child_process';
 import express from 'express';
@@ -7,8 +8,6 @@ import { dirname } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
-const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 

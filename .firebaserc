@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "sample-firebase-ai-app-77e59"
-  }
+    "default": "sample-firebase-ai-app-77e59",
+    "halloween": "halloween-skinmaker-keyyard"
+  },
+  "targets": {},
+  "etags": {}
 }
