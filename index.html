@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Halloween Skin Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Keyyard's Halloween Skin Maker</h1>
+    <div id="home">
+        <a href="#" id="startButton" class="button">Start</a>
+    </div>
+    <div id="upload" class="hidden">
+        <h2>Upload your player skin (PNG):</h2>
+        <input type="file" id="skinUpload" accept=".png" required><br><br>
+        <button id="uploadButton" class="button">Upload</button>
+    </div>
+    <div id="select" class="hidden">
+        <h2>Select your edit:</h2>
+        <div id="customizations" class="customizations"></div>
+        <button id="applyButton" class="button">Apply</button>
+    </div>
+    <div id="product" class="hidden">
+        <h2>The skin is now finished!</h2>
+        <canvas id="canvas" width="64" height="64"></canvas><br><br>
+        <button id="downloadButton" class="button">Download</button>
+        <a href="#" id="homeButton" class="button">Return to Home</a>
+    </div>
+    <script src="scripts.js" type="module"></script>
+</body>
+</html>
