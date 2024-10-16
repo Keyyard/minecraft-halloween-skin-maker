@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 halloween_skin_maker.exe.WebView2/
+**/node_modules/**
 output/*
 uploads/*
 # C extensions
