@@ -9,6 +9,10 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 
 ![Halloween Skin App](static/medias/halloween4.png)
 
+## Preview Video
+
+[![Watch the video](https://img.youtube.com/vi/1D-TqhQWd3k?si=gxfcN9kuKl_0-ty6/sddefault.jpg)](https://youtu.be/1D-TqhQWd3k?si=gxfcN9kuKl_0-ty6)
+
 ## Features
 
 - **User-Friendly Interface:** Easy to use.
