@@ -3,15 +3,13 @@
 Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky customizations to your Minecraft skin. Upload your skin, choose a Halloween-themed overlay, and download your new look. It's that simple!
 
 
-![Halloween Skin Transformation](static/medias/halloween1.png)
+![Halloween Skin](static/medias/halloween4.png)
 
-![Halloween Skin App](static/medias/halloween3.png)
+![Halloween Skin](static/medias/halloween3.png)
 
-![Halloween Skin App](static/medias/halloween4.png)
+## Preview Video (click on it)
 
-## Preview Video
-
-[![Watch the video](http://i3.ytimg.com/vi/1D-TqhQWd3k?si=gxfcN9kuKl_0-ty6/hqdefault.jpg)](https://youtu.be/1D-TqhQWd3k?si=gxfcN9kuKl_0-ty6)
+[![Watch the video](static/medias/halloween1.png)](https://youtu.be/1D-TqhQWd3k?si=gxfcN9kuKl_0-ty6)
 
 ## Features
 
