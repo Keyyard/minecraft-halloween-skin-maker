@@ -34,4 +34,4 @@ If you would like to support the project, consider making a donation. Donations 
 
 Happy Halloween!!
 
-# Visit the website: [Keyyard's Halloween Skin Maker](https://keyyard.github.io/halloween-skin-maker/)
+# Visit the website: [Keyyard's Halloween Skin Maker]([https://keyyard.github.io/halloween-skin-maker/](https://keyyard.github.io/minecraft-halloween-skin-maker/))
