@@ -1,6 +1,6 @@
 # Keyyard's Halloween Skin Maker 🎃
 
-Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky customizations to your Minecraft skin. Upload your skin, choose a Halloween-themed overlay, and download your new look. It's that simple!
+Welcome to the Keyyard's Halloween Skin Maker! This website allows you to apply edits to your Minecraft skin. Upload your skin, select a Halloween overlay, and get your new appearance. It is that simple!
 
 
 ![Halloween Skin](static/medias/halloween4.png)
