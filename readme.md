@@ -33,3 +33,5 @@ This app can be freely modified and hosted as a website on your own. However, cr
 If you would like to support the project, consider making a donation. Donations will help us host the app as a website, eliminating the need for users to install it locally.
 
 Happy Halloween!!
+
+# Visit the website: [Keyyard's Halloween Skin Maker](https://keyyard.github.io/halloween-skin-maker/)
