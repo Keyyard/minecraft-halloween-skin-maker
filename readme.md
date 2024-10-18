@@ -21,11 +21,10 @@ Welcome to Keyyard's Halloween Skin Maker! This web app lets you add spooky cust
 ## How to add new customizations?
 
 1. Fork the repository.
-2. Add your customizations to the `static/assets/customizations` folder.
-3. Add your customization UI (icon) to the `static/assets/ui` folder.
+2. Add your customizations to the `/customizations` folder.
+3. Add your customization UI (icon) to the `/ui` folder.
 > Make sure you have the same name for the customization and the UI icon.
-4. Run the application and test your customization.
-5. Create a pull request to merge your changes! I will review and merge them ASAP.
+4. Create a pull request to merge your changes! I will review and merge them ASAP.
 
 ## License and Contributions
 
